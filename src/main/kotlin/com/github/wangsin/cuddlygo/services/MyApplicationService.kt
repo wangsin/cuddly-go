@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.wangsin.cuddlygo.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.wangsin.cuddlygo.MyBundle
 
 class MyApplicationService {
 
