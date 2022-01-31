@@ -1,10 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
-<idea-plugin>
-    <id>com.github.wangsin.cuddlygo</id>
-    <name>cuddly-go</name>
+<idea-plugin url="https://wangsin.github.io">
+    <id>com.GitHub.wangsin.cuddly-go</id>
+    <name>Cuddly Go</name>
+    <version>0.0.1</version>
     <vendor>wangsin</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+<!--    <depends>com.intellij.modules.go</depends>-->
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.wangsin.cuddlygo.services.MyApplicationService"/>
